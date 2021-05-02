@@ -13,3 +13,10 @@ console.log(evens)
 // Odd Numbers
 const odds = aList.filter(num => num % 2)
 console.log(odds)
+
+// check duplicate
+
+const newList = [1, 2, 1, 2, 5, 4, 8]
+
+const filtered = newList.filter((a, b) => !(a === b))
+console.log(filtered)
